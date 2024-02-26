@@ -35,3 +35,7 @@ body > nav > div > a > img {
   left: 0;
   z-index: 1;
 }
+
+.carousel-item img{
+  object-fit: cover;
+}
