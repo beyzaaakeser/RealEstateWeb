@@ -49,11 +49,10 @@ body > nav > div > a > img {
   width: 250px;
 }
 
-.services-text{
-  height: 100vh;
+.services-summary{
   margin-top: -190px;
 }
 
-.services-summary{
-  padding-top: 250px;
+.services-text{
+  padding-top: 300px;
 }
