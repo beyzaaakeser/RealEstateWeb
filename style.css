@@ -45,14 +45,55 @@ body > nav > div > a > img {
   border: 1px solid gray;
 }
 
-.section-img div img{
+.about .section-img div img{
   width: 250px;
 }
 
-.services-summary{
+.about-summary{
   margin-top: -190px;
 }
 
-.services-text{
+.about-text{
   padding-top: 300px;
+}
+
+#services > div > div.services-content > div.services-img > img:nth-child(1){
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  box-shadow: rgba(19, 17, 17, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+#services > div > div.services-content > div.services-img > img:nth-child(2){
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.services-btn{
+  width: 50%;
+}
+
+@media (max-width:562px){
+
+  #services > div > div.services-content > div.services-img > img:nth-child(1){
+    width: 65%;
+    
+  }
+
+  #services > div > div.services-content > div.services-img > img:nth-child(2){
+    width: 30%;
+
+  }
+
+ 
+}
+
+@media (max-width:768px){
+
+  .services-img{
+    margin: auto;
+  }
 }
