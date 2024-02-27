@@ -39,3 +39,21 @@ body > nav > div > a > img {
 .carousel-item img{
   object-fit: cover;
 }
+
+
+.hr{
+  border: 1px solid gray;
+}
+
+.section-img div img{
+  width: 250px;
+}
+
+.services-text{
+  height: 100vh;
+  margin-top: -190px;
+}
+
+.services-summary{
+  padding-top: 250px;
+}
