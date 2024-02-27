@@ -36,64 +36,69 @@ body > nav > div > a > img {
   z-index: 1;
 }
 
-.carousel-item img{
+.carousel-item img {
   object-fit: cover;
 }
 
-
-.hr{
+.hr {
   border: 1px solid gray;
 }
 
-.about .section-img div img{
+.about .section-img div img {
   width: 250px;
 }
 
-.about-summary{
+.about-summary {
   margin-top: -190px;
 }
 
-.about-text{
+.about-text {
   padding-top: 300px;
 }
 
-#services > div > div.services-content > div.services-img > img:nth-child(1){
+#services > div > div.services-content > div.services-img > img:nth-child(1) {
   width: 300px;
   height: 350px;
   object-fit: cover;
-  box-shadow: rgba(19, 17, 17, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(19, 17, 17, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-
-#services > div > div.services-content > div.services-img > img:nth-child(2){
+#services > div > div.services-content > div.services-img > img:nth-child(2) {
   width: 200px;
   height: 300px;
   object-fit: cover;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.services-btn{
+.services-btn {
   width: 50%;
 }
 
-@media (max-width:562px){
-
-  #services > div > div.services-content > div.services-img > img:nth-child(1){
-    width: 65%;
-    
-  }
-
-  #services > div > div.services-content > div.services-img > img:nth-child(2){
-    width: 30%;
-
-  }
-
- 
+.reviews > div > div.customers-review > div > img{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
 }
 
-@media (max-width:768px){
+@media (max-width: 562px) {
+  #services > div > div.services-content > div.services-img > img:nth-child(1) {
+    width: 65%;
+  }
 
-  .services-img{
+  #services > div > div.services-content > div.services-img > img:nth-child(2) {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-img {
     margin: auto;
+  }
+  .reviews > div > div.customers-review > div > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
   }
 }
